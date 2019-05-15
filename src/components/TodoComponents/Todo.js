@@ -4,8 +4,8 @@ const Todo = props => {
     console.log(props)
     return (
         <div>
-            <h4>Todo Title: {props.todo.task}</h4>
-            <p>Completed: {props.todo.completed ? 'True' : 'False'}</p>
+            <p>{props.todo.task}</p>
+            {/* <p>Completed: {props.todo.completed ? 'True' : 'False'}</p> */}
         </div>
     )
 }
